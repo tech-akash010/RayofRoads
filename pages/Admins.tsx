@@ -7,7 +7,7 @@ import { Star, Facebook, Instagram, Youtube, Linkedin } from 'lucide-react';
 const AdminProfile: React.FC<{ member: TeamMember; index: number }> = ({ member, index }) => {
   const isAkash = member.name.includes('Akash');
   const cinematicTitle = isAkash ? "THE CREATOR" : "THE VISUAL MIND";
-  const cinematicSub = isAkash ? "Architect of Narratives" : "Director of Photography";
+  const cinematicSub = isAkash ? "Architect of Narratives" : "Executer";
   const alignRight = index % 2 !== 0;
 
   return (

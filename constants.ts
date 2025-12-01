@@ -3,8 +3,8 @@ import { BlogPost, GalleryItem, TeamMember } from './types';
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: "Akash Kundu",
-    role: "Founder, Admin & Head of Storytelling",
-    bio: "The voice of the journey. He translates the dust of the open road into narratives that linger long after the engine stops.",
+    role: "Admin - Director of Frames, Cuts & Story",
+    bio: "I’m Akash, the creative force of RayofRoads. Every frame designed, every cut refined, every story written — all crafted to feel cinematic..",
     imageUrl: "https://github.com/tech-akash010/Assets/blob/main/admin1.jpeg?raw=true",
     socials: { 
       instagram: "https://www.instagram.com/0x.akash?igsh=MWNrM2V5bzVmd3BwMw==", 
@@ -13,8 +13,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: "Rahul Kheto",
-    role: "Co-Founder, Admin & Head of Photography",
-    bio: "The eye of the storm. He chases light across borders, freezing the fleeting chaos of the world into frames of eternal stillness.",
+    role: "Admin - Executer of roads & frames",
+    bio: "I’m Rahul, admin and photographer of RayofRoads — shaping the roadmap and capturing every story in its raw, cinematic form..",
     imageUrl: "https://github.com/tech-akash010/Assets/blob/main/Admin2.jpeg?raw=true",
     socials: { 
       instagram: "https://www.instagram.com/rahullkheto?igsh=MTdveHV2N3NuOXB0OA==", 

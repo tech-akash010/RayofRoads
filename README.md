@@ -1,129 +1,20 @@
-# 🎞️ RAYOFROADS — A CINEMATIC ODYSSEY ON THE WEB
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-**RayOfRoads** is more than a website — it is a **film you scroll through**, a visually poetic journey carved from roads, mountains, temples, waterfalls, and golden sunsets.  
-Every section is crafted like a **scene**, every transition like a **cut**, and every visual like a **frame from a film reel**.
+# Run and deploy your AI Studio app
 
-Step into a world where travel meets cinema.  
-Where storytelling meets design.  
-Where the web becomes a motion picture.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/drive/1MbC5VuqfTjj65tUKEF4YRrpG9VSkispv
 
-## 🌌 THE CINEMATIC EXPERIENCE
+## Run Locally
 
-RayOfRoads transforms traditional browsing into a **movie-like exploration** with:
-
-- 🎬 **Scene-based storytelling flow**  
-- 🌄 **Color-graded, high-quality travel imagery**  
-- 🌫️ **Parallax motion & smooth atmospheric transitions**  
-- ✨ **Premium typography + subtle glow gradients**  
-- 🎞️ **Narrative pacing — opening, build-up, climax, finale**  
-- 🌇 **A sunset closure that feels truly cinematic**
-
-This is not a website you visit —  
-**it is a journey you experience.**
-
----
-
-## 🧭 STORY STRUCTURE — SCENE BY SCENE
-
-| Scene | Cinematic Purpose |
-|-------|-------------------|
-| **1. Opening Road Shot** | Establishes the tone — motion, nature, freedom |
-| **2. Mountain Chapter** | Wide, calm frames for depth & scale |
-| **3. Temples & Monasteries** | Cultural immersion and spiritual warmth |
-| **4. Waterfall Sequence** | Dynamic energy, refreshing contrast |
-| **5. Journey Continues** | Emotional rise, narrative tension |
-| **6. Sunset Finale** | A poetic cinematic closing frame |
-
-Each section is designed to feel like a **transition in a travel film**.
+**Prerequisites:**  Node.js
 
 
----
-
-## 🚀 TECHNOLOGY BEHIND THE CINEMA
-
-
-**Creative / Enhancement Tools**  
-- Google AI Studio – UI effects, refinement & enhancement  
-- Manual design vision for cinematic pacing  
-
-**Deployment Options**  
-- GitHub Pages  
-- Custom Domain Support  
-
-
----
-
-
-## 🛠️ INSTALLATION — START THE JOURNEY LOCALLY
-
-Clone the cinematic project:
-
-```bash
-git clone https://github.com/your-username/rayofroads.git
-
-Enter the folder:
-
-cd rayofroads
-
-To experience the film locally, simply open:
-
-index.html
-
-No builds.
-No frameworks.
-Just pure cinematic front-end storytelling.
-
-
----
-
-🎨 DESIGN PHILOSOPHY
-
-RayOfRoads follows a film-direction mindset:
-
-Slow reveals
-
-Wide establishing visuals
-
-Contrast between calm + dynamic scenes
-
-Gradient color palettes matching natural lighting
-
-Visual rhythm to mimic movie pacing
-
-
-Every detail is intentional.
-
-
----
-
-
-⭐ SUPPORT THE FILM
-
-If RayOfRoads inspires you,
-support the project by giving it a star ⭐ on GitHub.
-
-Every star helps the journey reach more travelers.
-
-
----
-
-🔮 FUTURE Updates: 
-
-🎞 Full-screen cinematic intro animation
-
-🌬 Ambient travel sound mode
-
-🏔 Advanced depth-parallax environment
-
-
-
-
-
-
----
-
-🎬 RayOfRoads — A website that feels like cinema.
-
----
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
