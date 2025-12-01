@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ray of Roads - Cinematic Storytelling</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Manrope:wght@200;300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Manrope', 'sans-serif'],
+              serif: ['Cormorant Garamond', 'serif'],
+              display: ['Cinzel', 'serif'],
+              script: ['Great Vibes', 'cursive'],
+            },
+            colors: {
+              'film-black': '#050505',
+              'film-dark': '#0a0a0a',
+              'cinema-teal': '#115e59',
+              'cinema-gold': '#d97706',
+              'subtle-gray': '#a3a3a3',
+            },
+            backgroundImage: {
+              'vignette': 'radial-gradient(circle, transparent 40%, rgba(0,0,0,0.9) 100%)',
+              'spotlight-warm': 'radial-gradient(circle at 50% 0%, rgba(217, 119, 6, 0.15) 0%, transparent 50%)',
+              'spotlight-cool': 'radial-gradient(circle at 50% 0%, rgba(17, 94, 89, 0.15) 0%, transparent 50%)',
+            },
+            animation: {
+              'fade-in-slow': 'fadeIn 2.5s ease-out forwards',
+              'float': 'float 10s ease-in-out infinite',
+              'dust': 'dust 20s linear infinite',
+              'shimmer': 'shimmer 3s linear infinite',
+              'spotlight': 'spotlight 8s ease-in-out infinite alternate',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0', filter: 'blur(10px)' },
+                '100%': { opacity: '1', filter: 'blur(0)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-15px)' },
+              },
+              dust: {
+                '0%': { transform: 'translateY(0) translateX(0)' },
+                '100%': { transform: 'translateY(-100px) translateX(20px)' },
+              },
+              shimmer: {
+                '0%': { backgroundPosition: '-200% center' },
+                '100%': { backgroundPosition: '200% center' },
+              },
+              spotlight: {
+                '0%': { opacity: 0.5, transform: 'scale(1)' },
+                '100%': { opacity: 0.8, transform: 'scale(1.1)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Cinematic Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #020202;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 3px;
+        border: 1px solid #000;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #d97706;
+      }
+      
+      ::selection {
+        background: rgba(217, 119, 6, 0.3);
+        color: #fff;
+        text-shadow: 0 0 10px rgba(217, 119, 6, 0.5);
+      }
+      
+      /* Refined Global Film Grain */
+      .film-grain {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 9999;
+        opacity: 0.05;
+        mix-blend-mode: overlay;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='1'/%3E%3C/svg%3E");
+      }
+
+      body {
+        background-color: #020202;
+        color: #e5e5e5;
+      }
+      
+      /* Smooth text rendering for cinematic fonts */
+      h1, h2, h3, h4, h5, h6 {
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+  }
+}
+</script>
+</head>
+  <body class="antialiased overflow-x-hidden selection:bg-orange-900 selection:text-white">
+    <div id="root"></div>
+  </body>
+</html>
