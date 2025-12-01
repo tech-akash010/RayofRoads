@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1MbC5VuqfTjj65tUKEF4YRrpG9VSkispv
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+🌅 RAYOFROADS — THE CINEMATIC TRAVEL WEB EXPERIENCE
+RayOfRoads is not just a website.
+It is a visual journey, a film-inspired digital experience, crafted with storytelling, photographs, and immersive UI transitions that make every scroll feel like a scene from a movie.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+
+🎥 ✨ A WEBSITE THAT FEELS LIKE A FILM
+RayOfRoads blends cinema-grade visuals, smooth parallax animations, and minimal storytelling to deliver a travel experience unlike anything traditional websites offer.
+What Makes It Special?
+🎞 Film-inspired motion & transitions
+🌄 High-grade travel photography showcased elegantly
+🔥 Premium typography + gradient overlays
+🌿 Nature-themed scenes: roads, greenery, mountains & waterfalls
+🌇 Iconic sunset ending sequence
+🧭 A journey-based layout instead of pages
+Every section flows like a scene.
+Every scroll advances the story.
+
+📂 INSTALLATION
+Clone the project:
+git clone https://github.com/your-username/rayofroads.git
+Enter the folder:
+cd rayofroads
+Run locally by opening:
+index.html
+
+
+⭐ SUPPORT THE PROJECT
+If RayOfRoads inspired you,
+give the repo a star ⭐ — it helps the project grow!
+🔮 FUTURE UPGRADES
+Full-screen cinematic intro animation
+Sound-designed ambience toggle
+AI-generated travel narration
+Advanced parallax scenes
+Dedicated admin section
