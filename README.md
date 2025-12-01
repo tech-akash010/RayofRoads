@@ -41,6 +41,20 @@ Each section is designed to feel like a **transition in a travel film**.
 
 ---
 
+## 🚀 TECHNOLOGY BEHIND THE CINEMA
+
+
+**Creative / Enhancement Tools**  
+- Google AI Studio – UI effects, refinement & enhancement  
+- Manual design vision for cinematic pacing  
+
+**Deployment Options**  
+- GitHub Pages  
+- Custom Domain Support  
+
+
+---
+
 
 ## 🛠️ INSTALLATION — START THE JOURNEY LOCALLY
 
